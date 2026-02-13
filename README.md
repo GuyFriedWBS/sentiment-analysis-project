@@ -1,5 +1,9 @@
 # Sentiment Analysis Project
 
+## Project Description
+This project trains a simple sentiment analysis model using logistic regression and TF-IDF vectorization.  
+The model predicts whether a text is positive (1) or negative (0).
+
 ## Setup
 
 ### Option 1: Python venv
@@ -14,6 +18,7 @@ pip install -r requirements.txt
 
 ## Train
 python src/train.py --data data/train.csv --out models/sentiment.joblib
+
 
 ## Example:
 Positive text: "I really loved this movie."
