@@ -18,3 +18,8 @@ pip install -r requirements.txt
 
 ## Train
 python src/train.py --data data/train.csv --out models/sentiment.joblib
+
+
+## Example:
+Positive text: "I really loved this movie."
+Negative text: "This was the worst experience ever."
